@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* classe nova wrapper1 */
+.wrapper1 .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button:hover{
+  width: 200px;
+}
+.wrapper1 .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* continuação original */
+/* classe nova wrapper1 */
+.wrapper1 .button1{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button1:hover{
+  width: 310px;
+}
+.wrapper1 .button1 .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* continuação original */
+/* classe nova wrapper1 */
+.wrapper1 .button2{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button2:hover{
+  width: 260px;
+}
+.wrapper1 .button2 .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* continuação original */
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button:nth-child(6):hover .icon{
+  background: #0A66C2;
+}
+.wrapper1 .button:nth-child(1):hover .icon{
+  background: #00BFA5;
+}
+.wrapper1 .button2:nth-child(2):hover .icon{
+  background: #333;
+}
+.wrapper1 .button1:nth-child(3):hover .icon{
+  background: #ff0000;
+}
+.wrapper1 .button:nth-child(4):hover .icon{
+  background: #3390EC;
+}
+.wrapper1 .button1:nth-child(5):hover .icon{
+  background: #333;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+
+/* classe nova wrapper1*/
+.wrapper1 .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button:hover .icon i{
+  color: #fff;
+}
+/* classe nova wrapper1*/
+/* classe nova wrapper1*/
+.wrapper1 .button1 .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button1:hover .icon i{
+  color: #fff;
+}
+/* classe nova wrapper1*/
+/* classe nova wrapper1*/
+.wrapper1 .button2 .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button2:hover .icon i{
+  color: #fff;
+}
+/* classe nova wrapper1*/
+
+/*facebook link melhorar*/
+a.sem:link{
+    text-decoration: none;
+    color: #4267B2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem:hover{
+    text-decoration: none;
+    color: #4267B2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem:visited{
+    text-decoration: none;
+    color: #4267B2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem:active{
+    text-decoration: none;
+    color: #4267B2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*twitter link melhorar*/
+a.sem1:link{
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem1:hover{
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem1:visited{
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem1:active{
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*instagram link melhorar*/
+a.sem2:link{
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem2:hover{
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem2:visited{
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem2:active{
+    text-decoration: none;
+    color: #E1306C;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*github link melhorar*/
+a.sem3:link{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem3:hover{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem3:visited{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem3:active{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*youtube link melhorar*/
+a.sem4:link{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem4:hover{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem4:visited{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem4:active{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*linkedin link melhorar*/
+a.sem5:link{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem5:hover{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem5:visited{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem5:active{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*whatsapp link melhorar*/
+a.sem6:link{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem6:hover{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem6:visited{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem6:active{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*telegram link melhorar*/
+a.sem7:link{
+    text-decoration: none;
+    color: #3390EC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem7:hover{
+    text-decoration: none;
+    color: #3390EC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem7:visited{
+    text-decoration: none;
+    color: #3390EC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem7:active{
+    text-decoration: none;
+    color: #3390EC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+h2.serviços {
+
+    font-size: 20px;
+}
+h2.serviços:hover {
+    color: #ffffff;
+    background-color: green;
+}
