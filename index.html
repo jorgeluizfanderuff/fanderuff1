@@ -9,6 +9,9 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <link rel="stylesheet" type="text/css" href="homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+
+
 </head>
 <body>
         <h1 align="center">Fanderuff Engenharia</h1>
@@ -84,14 +87,20 @@
                 <i class="fab fa-telegram"></i>
             </div>
             <a class="sem7" href="https://t.me/fanderuff" target="_blank">Telegram</a>
-         </div>
+        </div>
         <div class="button1">
             <div class="icon">
                 <i class="fa-solid fa-id-card-clip"></i>
             </div>
             <a class="sem3" href="https://bit.ly/jorge-luiz-fanderuff" target="_blank">Cartão Visita Digital</a>
         </div>
-</div>
+</div> 
+
+
+
+
+           
+
         <br>
         <br>
         <ul>
@@ -158,6 +167,52 @@
             <br>
             <br>
         </ul>
-Última Atualização em 10/12/2022: (migração do heroku para render.com)
-</body>
+Última Atualização em 14/12/2022
+
+<div>
+	<HEAD><TITLE>Exibir Data e Hora em HTML </TITLE>
+		<script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+		<script type="text/javascript">
+			jQuery(window).load(function($){
+				atualizaRelogio();
+			});
+		</script>
+	</HEAD>
+	<BODY>
+		<div>
+        Data:
+			<output id="data"  ></output>
+        Horário:
+			<output id="hora" ></output>				
+		</div>			
+	</BODY>
+	<script>
+		function atualizaRelogio(){ 
+			var momentoAtual = new Date();
+			
+			var vhora = momentoAtual.getHours();
+			var vminuto = momentoAtual.getMinutes();
+			var vsegundo = momentoAtual.getSeconds();
+			
+			var vdia = momentoAtual.getDate();
+			var vmes = momentoAtual.getMonth() + 1;
+			var vano = momentoAtual.getFullYear();
+			
+			if (vdia < 10){ vdia = "0" + vdia;}
+			if (vmes < 10){ vmes = "0" + vmes;}
+			if (vhora < 10){ vhora = "0" + vhora;}
+			if (vminuto < 10){ vminuto = "0" + vminuto;}
+			if (vsegundo < 10){ vsegundo = "0" + vsegundo;}
+
+			dataFormat = vdia + " / " + vmes + " / " + vano;
+			horaFormat = vhora + " : " + vminuto + " : " + vsegundo;
+
+			document.getElementById("data").innerHTML = dataFormat;
+			document.getElementById("hora").innerHTML = horaFormat;
+
+			setTimeout("atualizaRelogio()",1000);
+		}
+	</script>	
+</div>
+
 </html>
